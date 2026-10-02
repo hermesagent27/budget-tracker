@@ -4,9 +4,11 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## Repository Structure
 
+Nuxt 4 application lives at the repo root (Vercel Root Directory = `/`).
+
+- `app/`, `server/`, `public/` — the Nuxt 4 application.
 - `data/`: Aggregate data that is the main data source for the app.
 - `docs/`: Documentation for what things are and what they should do.
-- `frontend/`: The Nuxt application.
 - `scripts/`: Agent Python scripts, including skills and general scripts.
 - `.hermes/plans/`: Planning files for the agent to logically plan out features.
 
